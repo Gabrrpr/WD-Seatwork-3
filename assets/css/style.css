@@ -22,11 +22,11 @@ h1, h1 * {
 }
 
 .container, .container * {
-  outline: 1px dashed rgb(72, 0, 255);
+  /*outline: 1px dashed rgb(72, 0, 255);*/
 }
 
 .content, .content * {
-   outline: 3px dotted gold;
+  /*outline: 3px dotted gold;*/
 }
 
 body {
