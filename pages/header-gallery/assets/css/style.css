@@ -9,7 +9,7 @@
 
 h1, h1 * {
     font-family: "Merriweather", serif;
-    color: black;
+    color: rgb(0, 0, 0);
     align-items: flex-end;
     text-align: center;
     margin-top: 0;
@@ -28,7 +28,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-/* Home Button Designszzzzz */ 
+/* Home Button Designszzzzz */
 .home-button {
     align-items: center;
     background-clip: padding-box;
@@ -106,7 +106,7 @@ header.design-one {
 header.design-one > nav.navigation > a.navigation-content {
     font-weight: 600;
     font-size: 1.1rem;
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 
 header.design-two {
