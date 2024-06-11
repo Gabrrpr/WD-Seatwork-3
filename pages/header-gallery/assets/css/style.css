@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h1 * {
+    font-family: "Merriweather", serif;
+    color: black;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Home Button Designszzzzz */ 
+.home-button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #ff6600;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+  .home-button:hover,
+  .home-button:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+
+  .home-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .home-button:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+
+  a.home-button {
+    text-decoration: none;
+    margin-top: 2rem;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    gap: 1rem;
+    align-items: flex-end;
+    padding-bottom: 1ch;
+    color: black;
+}
+
+header.design-one, header.design-two {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+}
+
+header.design-one {
+    background-color: rgba(0, 0, 0, 0.84);
+}
+
+header.design-one > nav.navigation > a.navigation-content {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: azure;
+}
+
+header.design-two {
+    background-color: rgba(101, 180, 58, 0.84);
+}
+
+header.design-one > img.website-logo, header.design-two > img.website-logo {
+    height: 50px;
+}
+
+header.design-one > nav.navigation, header.design-two > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header.design-one > nav.navigation > a.navigation-content, header.design-two > nav.navigation > a.navigation-content {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+header.design-two > nav.navigation > input.search-bar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    margin-right: 1rem;
+}
+
+

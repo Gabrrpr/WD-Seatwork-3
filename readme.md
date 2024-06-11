@@ -65,6 +65,8 @@ Guiding Question:
 - What are key components
 - What technology used and how it is used
 
+Seatwork #3 compassess header and footers design in a theme of Adventure time. This designs describes the feel of the land of ooo. The colors
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
