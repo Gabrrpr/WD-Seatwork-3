@@ -7,7 +7,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-h1, h1 * {
+h1,
+h1 * {
     font-family: "Merriweather", serif;
     color: rgb(0, 0, 0);
     align-items: flex-end;
@@ -41,7 +42,7 @@ body {
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
     justify-content: center;
@@ -59,29 +60,29 @@ body {
     width: auto;
 }
 
-  .home-button:hover,
-  .home-button:focus {
+.home-button:hover,
+.home-button:focus {
     background-color: #fb8332;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
+}
 
-  .home-button:hover {
+.home-button:hover {
     transform: translateY(-1px);
-  }
+}
 
-  .home-button:active {
+.home-button:active {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
-  }
+}
 
-  a.home-button {
+a.home-button {
     text-decoration: none;
     margin-top: 2rem;
     display: block;
     width: fit-content;
     margin: 0 auto;
-  }
+}
 
 section {
     width: 100vw;
@@ -92,7 +93,9 @@ section {
     color: black;
 }
 
-header.design-one, header.design-two, header.design-three {
+header.design-one,
+header.design-two,
+header.design-three {
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -108,27 +111,54 @@ header.design-one > nav.navigation > a.navigation-content {
     font-weight: 600;
     font-size: 1.1rem;
     color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header.design-one > nav.navigation > a.navigation-content.join-now-button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
 header.design-two {
     background-color: rgba(101, 180, 58, 0.84);
 }
 
-header.design-one > img.website-logo, header.design-two > img.website-logo, header.design-three > img.website-logo, header.design-four > img.website-logo, header.design-five > img.website-logo {
+header.design-one > img.website-logo,
+header.design-two > img.website-logo,
+header.design-three > img.website-logo,
+header.design-four > img.website-logo,
+header.design-five > img.website-logo {
     height: 75px;
 }
 
-header.design-one > nav.navigation, header.design-two > nav.navigation, header.design-three > nav.navigation {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-}
+header.design-one > nav.navigation,
+header.design-two > nav.navigation,
+    header.design-three > nav.navigation {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
 
-header.design-one > nav.navigation > a.navigation-content, header.design-two > nav.navigation > a.navigation-content, header.design-three > nav.navigation > a.navigation-content {
+header.design-one > nav.navigation > a.navigation-content,
+header.design-two > nav.navigation > a.navigation-content,
+header.design-three > nav.navigation > a.navigation-content {
     font-weight: 600;
     font-size: 1.1rem;
 }
 
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-decoration: none;
+    broder
+}
 
 header.design-two > nav.navigation > input.search-bar {
     padding: 0.5rem;
@@ -143,10 +173,6 @@ header.design-two > nav.navigation > input.search-bar {
 /* New Design Three Specific Styles */
 header.design-three {
     background-color: rgba(255, 215, 0, 0.84);
-}
-
-header.design-three > nav.navigation > a.navigation-content:hover {
-    color: rgb(0, 0, 255);
 }
 
 header.design-four {
@@ -204,7 +230,7 @@ header.design-five > nav.navigation > a.navigation-content {
 }
 
 header.design-five > nav.navigation > a.navigation-content:last-child {
-    margin-right: 0; /* Remove margin from the last navigation item */
+    margin-right: 0;
 }
 
 header.design-five > nav.navigation > a.navigation-content > .bi {
@@ -221,7 +247,7 @@ header.design-five > nav.navigation > a.navigation-content > .bi {
 
 /* Header animated section */
 
-header.design-1nimated {
+header.design-animated {
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -229,11 +255,11 @@ header.design-1nimated {
     padding: 0.7rem 10vw;
 }
 
-header.design-1nimated > img.website-logo {
+header.design-one-animated > img.website-logo {
     height: 75px;
 }
 
-header.design-1nimated > nav.navigation {
+header.design-animated > nav.navigation {
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -248,10 +274,183 @@ header.design-one-animated {
     background-color: rgba(255, 115, 0, 0.84);
 }
 
+header.design-one-animated > nav.navigation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
 
+header.design-one-animated > nav.navigation > a.navigation-content:hover {
+    color: aliceblue;
+}
 
+header.design-two-animated {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    background-color: rgba(61, 194, 206, 0.84);
+}
 
+header.design-two-animated > nav.navigation {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(255, 220, 24);
+    margin-right: 1rem;
+    display: flex;
+    gap: 3rem;
+}
 
+header.design-two-animated > img.website-logo {
+    height: 75px;
+}
+
+header.design-three-animated {
+    background-color: #e049d1;
+}
+
+header.design-two-animated > nav.navigation > a.navigation-content {
+    position: relative;
+    transition: transform 0.6s ease;
+}
+
+header.design-two-animated > nav.navigation > a.navigation-content:hover {
+    transform: rotate(360deg);
+}
+
+header.design-three-animated {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem
+}
+
+header.design-three-animated > img.website-logo {
+    height: 75px;
+    margin-left: 10.5rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.coolBeans {
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(227, 227, 34);
+    font-size: 1rem;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 0.8rem 1.6rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.coolBeans::after {
+    background-color: rgb(255, 255, 69);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+
+.coolBeans:hover::after {
+    transform: translate(0, 0);
+}
+
+.coolBeans:hover {
+    border: 2px solid transparent;
+    color: rgb(169, 134, 194);
+    transform: scale(1.05);
+    will-change: transform;
+}
+
+header.design-four-animated {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    gap: 10rem;
+    color: #ffffff;
+    background-color: #781b1b;
+    transition: background-color 0.3s ease;
+}
+
+header.design-four-animated > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-right: 2.5rem;
+}
+
+/* Logo styles */
+header.design-four-animated .website-logo {
+    height: 80px;
+    margin-left: 2rem;
+}
+
+header.design-four-animated .search-icon {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+header.design-four-animated .search-bar-container {
+    position: relative;
+}
+
+header.design-four-animated .search-bar {
+    width: 0;
+    padding: 0;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: #000000;
+    transition: width 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    opacity: 0;
+    z-index: -1;
+}
+
+header.design-four-animated .search-icon:hover + .search-bar,
+header.design-four-animated .search-bar-container:hover .search-bar {
+    width: 150px;
+    padding: 0.5rem;
+    opacity: 1;
+    z-index: 2;
+}
 
 
 

@@ -1,235 +1,176 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/adventure-time-logo');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
     font-family: "Poppins", sans-serif;
-}
+  }
 
-h1, h1 * {
+  h1,
+  h1 * {
     font-family: "Merriweather", serif;
-    color: rgb(0, 0, 0);
-    align-items: flex-end;
-    text-align: center;
-    margin-top: 0;
-    margin: 1rem 0;
-}
+  }
 
-a {
-    text-decoration: none;
-    margin-top: 2px;
+  /* Dev */
+  .treasure-button,
+  .icons, .container, .content * {
+    /* outline: 1px dashed red;*/
+  }
+
+  .content,
+  .content * {
+     /*outline: 3px dotted gold;*/
+  }
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
-}
-
-/* Home Button Designs */
-.home-button {
-    align-items: center;
-    background-clip: padding-box;
-    background-color: #ff6600;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    background: url('../img/Wallpaper De Adventure Time.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding: 20px;
     position: relative;
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
 }
 
-.home-button:hover,
-.home-button:focus {
-    background-color: #fb8332;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+/* Container for central content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-.home-button:hover {
-    transform: translateY(-1px);
-}
-
-.home-button:active {
-    background-color: #c85000;
-    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-    transform: translateY(0);
-}
-
-a.home-button {
-    text-decoration: none;
-    margin-top: 2rem;
+.titlelogo {
+    width: 500px;
+    margin: 20px auto;
     display: block;
-    width: fit-content;
-    margin: 0 auto;
+    margin-top: 1em;
+    padding: 0;
+    margin-top:0 ;
 }
 
-section {
-    width: 100vw;
-    padding: 1rem 5vw;
-    gap: 1rem;
-    align-items: flex-end;
-    padding-bottom: 1ch;
-    color: black;
+.subtitle {
+    font-size: 1.5rem;
+    color: #ff6600;
+    margin-top: 0.5em;
+    font-weight: 700;
+    margin-left: 2em;
+    padding: 0;
 }
 
-header.design-one,
-header.design-two,
-header.design-three,
-header.design-four,
-header.design-five,
-header.design-one-animated {
-    width: 100vw;
+/* Content Section */
+.content {
+    margin-top: 30px;
+}
+
+.title {
+    font-family: 'Adventure Time Logo', sans-serif;
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 20px;
+    margin-left: 1.6em;
+}
+
+.description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    margin-left: rem;
+}
+
+.button-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.7rem 10vw;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 20px; /* Space between buttons */
+    margin-left: 20px; /* Adjust margin for spacing from the left */
 }
 
-header.design-one {
-    background-color: rgba(0, 0, 0, 0.84);
-}
-
-header.design-one > nav.navigation > a.navigation-content {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: rgb(255, 255, 255);
-}
-
-header.design-two {
-    background-color: rgba(101, 180, 58, 0.84);
-}
-
-header.design-one > img.website-logo,
-header.design-two > img.website-logo,
-header.design-three > img.website-logo,
-header.design-four > img.website-logo,
-header.design-five > img.website-logo,
-header.design-one-animated > img.website-logo {
-    height: 75px;
-}
-
-header.design-one > nav.navigation,
-header.design-two > nav.navigation,
-header.design-three > nav.navigation,
-header.design-four > nav.navigation,
-header.design-five > nav.navigation,
-header.design-one-animated > nav.navigation {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-}
-
-header.design-one > nav.navigation > a.navigation-content,
-header.design-two > nav.navigation > a.navigation-content,
-header.design-three > nav.navigation > a.navigation-content,
-header.design-four > nav.navigation > a.navigation-content,
-header.design-five > nav.navigation > a.navigation-content,
-header.design-one-animated > nav.navigation > a.navigation-content {
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-header.design-two > nav.navigation > input.search-bar {
-    padding: 0.5rem;
-    font-size: 1rem;
+/* Common Button Styles */
+.button-92 {
+    --c: #f4e000; /* Text color */
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat, #004dff; /* Background color */
+    color: var(--c);
     border: none;
-    border-radius: 10px;
-    outline: none;
-    width: 200px;
-    margin-right: 1rem;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+    text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0 var(--c), calc(var(--_i,-1)*-0.08em) .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    cursor: pointer;
+    padding: .1em .3em;
+    width: 200px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
-/* New Design Three Specific Styles */
-header.design-three {
-    background-color: rgba(255, 215, 0, 0.84);
+.button-92:hover,
+.button-92:focus-visible {
+    --_p: 0%;
+    --_i: 1;
 }
 
-header.design-three > nav.navigation > a.navigation-content:hover {
-    color: rgb(0, 0, 255);
+.button-92:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
 }
 
-header.design-two > a.navigation-content {
-  color:#fb8332;
+.footer-button, .header-button {
+    margin-top: 10px;
+    margin-left: 6em;
 }
 
-header.design-four {
-    background-color: rgba(61, 194, 206, 0.84);
-}
-
-header.design-four > nav.navigation > a.navigation-content {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: rgb(255, 255, 255);
-    margin-right: 1rem;
-}
-
-header.design-four > nav.navigation > a.navigation-content:last-child {
-    margin-right: 0;
-}
-
-header.design-four > nav.navigation > a.navigation-content > .bi {
-    font-size: 1.5rem;
-    color: white;
-    margin-left: 0.5rem;
-}
-
-header.design-five {
-    background-color: rgba(200, 40, 211, 0.84);
-}
-
-header.design-five > nav.navigation > a.navigation-content {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: rgb(255, 220, 24);
-    margin-right: 1rem;
-}
-
-header.design-five > nav.navigation > a.navigation-content:last-child {
-    margin-right: 0;
-}
-
-header.design-five > nav.navigation > a.navigation-content > .bi {
-    font-size: 1.5rem;
-    color: white;
-    margin-left: 0.5rem;
-}
-
-.header-animation {
-    margin-top: 2rem;
-    padding-top: 1rem;
+/* Treasure Button Section */
+.treasure-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
     text-align: center;
 }
 
-/* Header animated section */
-header.design-one-animated {
-    background-color: rgba(255, 115, 0, 0.84);
+.treasure-chest {
+    width: 50px;
 }
 
-header.design-one-animated > img.website-logo {
-    height: 75px;
-    width: auto;
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
+.treasure-button:hover .icons {
+    opacity: 1;
+}
 
+.icon-link {
+    color: #ff6600; /* Orange color for icons */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
 
-
+.icon-link:hover {
+    color: #e55d00; /* Darker orange on hover */
+}

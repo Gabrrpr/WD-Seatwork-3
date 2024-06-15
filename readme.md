@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Adventure Time Themed Header and Footers. (Optional)
 </div>
 
 <br />
@@ -59,21 +59,14 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Seatwork #3 encompasses header and footers design in a theme of Adventure time. This designs has different unique features
+feel free to explore these features. Each feature can be used to enhance user experience and user interaction. 
 
-Seatwork #3 compassess header and footers design in a theme of Adventure time. This designs describes the feel of the land of ooo. The colors
-
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
+##Key-components
+- Multipage Website
+- Search bars
+- Navgiation animations
+- Links information of the developer
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -117,5 +110,7 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Font Family | Font family for the website itself | https://fonts.googleapis.com |
+| Font Family | Adevnture Time themed Text | https://fonts.cdnfonts.com/css/adventure-time-logo |
+| Transparent Photos/Character-Heads/background image | To enhance the theme of adventure time | Google.com |
+
